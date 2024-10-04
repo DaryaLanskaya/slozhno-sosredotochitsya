@@ -364,11 +364,16 @@
 }
 
 .footer {
-  /* margin-block-end: var(--unit); */
+  margin-block-end: var(--unit);
   height: 100vh;
   min-height: 680px;
   box-sizing: border-box;
   padding-block-start: 9.6%;
+
+}
+
+.footer .container {
+    height: 100%;
 }
 
 .footer_content {
