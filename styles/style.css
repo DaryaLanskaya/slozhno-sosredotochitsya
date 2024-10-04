@@ -204,7 +204,7 @@
 
 .section--textual .textual {
   display: flex;
-  padding-block-start: 33px;
+  padding-block-start: 5px;
   gap: var(--unit);
 }
 
