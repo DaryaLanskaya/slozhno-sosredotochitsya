@@ -14,5 +14,6 @@
   --font-weight-baze: 400;
   --font-weight-bold: 700;
   --unit: 20px;
-  --background: url('/images/cover-image-light.png'), var(--color-decor);
+  --background-color: var(--color-decor);
+  --background-image: url('/images/cover-image-light.png');
 }
