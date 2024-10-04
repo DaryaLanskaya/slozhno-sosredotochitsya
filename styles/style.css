@@ -173,8 +173,8 @@
 
 .border.border_reverse {
   position: absolute;
-  bottom: 77px;
-  left: var(--unit);
+  bottom: -19px;
+  left: 22px;
 }
 
 .border.border_reverse::before {
@@ -204,7 +204,7 @@
 
 .section--textual .textual {
   display: flex;
-  padding-block-start: 34px;
+  padding-block-start: 129px;
   gap: var(--unit);
 }
 
@@ -283,8 +283,13 @@
   padding-block-start: var(--unit);
 }
 
+.section.section--textual.thumbs .textual {
+  padding-block-start: 33px;
+}
+
 .section--textual.section--textual-column .textual {
   flex-wrap: wrap;
+  padding-block-start: 34px;
 }
 
 .section--textual.section--textual-column .textual__title {
@@ -310,6 +315,10 @@
 .section--textual.thumbs .textual__subtitle.special {
   width: 100%;
   margin-block-end: unset;
+}
+
+.section--textual.special .textual {
+  padding-block-start: 33px;
 }
 
 .section--textual.thumbs .thumb__items {
@@ -344,7 +353,7 @@
 
 .section--textual.thumbs .thumb__item_five {
   grid-area: thumb__item_five;
-  max-height: 428px;
+  max-height: 432px;
 }
 
 .section--textual.thumbs .thumb__item img {
@@ -362,7 +371,7 @@
 }
 
 .footer .footer__info {
-  margin-block-start: 17.5%;
+  margin-block-start: 18%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,8 +384,8 @@
 
 .footer .border_diverse {
   justify-content: end;
-  top: -22px;
-  right: 2px;
+  top: -19px;
+  right: 1px;
 }
 
 .footer .border.border_reverse {
