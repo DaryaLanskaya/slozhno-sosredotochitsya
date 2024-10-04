@@ -205,7 +205,6 @@
 
 .section--textual .textual {
   display: flex;
-  /* padding-block-start: 129px; */
   padding-block-start: 8rem;
   gap: var(--unit);
 }
