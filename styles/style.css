@@ -630,6 +630,10 @@
       margin-block-end: 11px;
   }
 
+  .section--textual .textual__subtitle.special.second {
+    margin-block-end: var(--unit);
+  }
+
   .section--textual.section--textual-column .textual {
       padding-block-start: 0;
   }
@@ -652,6 +656,10 @@
 
   .section--textual.thumbs .thumb__item_five {
       max-height: 237px;
+  }
+
+  .footer {
+    margin-block-end: 0;
   }
 
   .footer .border_diverse {
