@@ -3,6 +3,7 @@
   --color-primary: #FF0070;
   --color-secondary: #f1b2ce;
   --accent-color: #DB00FF;
+  --color-decor: #FFF1F7;
   --unusual-color: rgba(255, 0, 112, 0.4);
   --shadow-info: 4px 4px 0 var(--color-primary);
   --shadow-info-second: 2px 1.5px 1px var(--color-primary);
@@ -13,5 +14,5 @@
   --font-weight-baze: 400;
   --font-weight-bold: 700;
   --unit: 20px;
-  --background: url('/images/cover-image-light.png'), #FFF1F7;
+  --background: url('/images/cover-image-light.png'), var(--color-decor);
 }
