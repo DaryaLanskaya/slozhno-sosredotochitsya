@@ -14,7 +14,7 @@
   --font-weight-baze: 400;
   --font-weight-bold: 700;
   --unit: 20px;
-  --background: url('/images/cover-image-dark.png');
+  --background: url('/images/cover-image-light.png'), var(--main-color);
 }
 
 
@@ -35,6 +35,6 @@
       --font-weight-baze: 400;
       --font-weight-bold: 700;
       --unit: 20px;
-      --background: url('/images/cover-image-dark.png');
+      --background: url('/images/cover-image-light.png'), var(--main-color);
   }
 }
