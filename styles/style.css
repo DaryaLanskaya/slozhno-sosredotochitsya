@@ -204,7 +204,7 @@
 
 .section--textual .textual {
   display: flex;
-  padding-block-start: 30px;
+  padding-block-start: 45px;
   gap: var(--unit);
 }
 
@@ -354,7 +354,7 @@
 }
 
 .footer {
-  padding-block-end: var(--unit);
+  margin-block-end: var(--unit);
   height: 100vh;
   min-height: 680px;
   box-sizing: border-box;
