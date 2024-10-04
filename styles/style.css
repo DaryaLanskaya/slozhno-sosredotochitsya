@@ -44,7 +44,7 @@
 }
 
 .section {
-  padding-bottom: 30px;
+  padding-bottom: 27px;
 }
 
 .header .header__info {
@@ -101,7 +101,7 @@
 .border_diverse {
   display: flex;
   align-items: center;
-  margin-inline-end: 2px;
+  margin-inline-end: 1px;
   position: relative;
 }
 
@@ -164,7 +164,7 @@
   background: var(--color-primary);
   max-width: 50%;
   margin-inline-start: auto;
-  margin-block-start: 3.5%;
+  margin-block-start: 3.3%;
 }
 
 .header .header__end {
@@ -173,7 +173,7 @@
 
 .border.border_reverse {
   position: absolute;
-  bottom: 184px;
+  bottom: 77px;
   left: var(--unit);
 }
 
@@ -204,7 +204,7 @@
 
 .section--textual .textual {
   display: flex;
-  padding-block-start: 45px;
+  padding-block-start: 33px;
   gap: var(--unit);
 }
 
@@ -344,7 +344,7 @@
 
 .section--textual.thumbs .thumb__item_five {
   grid-area: thumb__item_five;
-  max-height: 424px;
+  max-height: 428px;
 }
 
 .section--textual.thumbs .thumb__item img {
@@ -362,7 +362,7 @@
 }
 
 .footer .footer__info {
-  margin-block-start: 20%;
+  margin-block-start: 17%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,11 +375,12 @@
 
 .footer .border_diverse {
   justify-content: end;
+  top: -29px;
 }
 
 .footer .border.border_reverse {
-  bottom: -12rem;
-  left: 0;
+  bottom: -12.1rem;
+  left: 1px;
   position: relative;
 }
 
