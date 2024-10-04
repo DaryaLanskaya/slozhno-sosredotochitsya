@@ -262,6 +262,10 @@
   margin-block-end: var(--unit);
 }
 
+.section--textual .textual__subtitle.second {
+  font-weight: var(--font-weight-bold);
+}
+
 .section--textual p {
   font-weight: var(--font-weight-baze);
   font-size: var(--font-size-baze);
@@ -579,6 +583,7 @@
 
   .section.section--textual.thumbs .textual {
       gap: 10px;
+      padding-block-start: 7px;
   }
 
   .section--textual .textual__title,
@@ -631,10 +636,6 @@
 
   .section--textual.special .textual {
       padding-block-start: 5px;
-  }
-
-  .section.section--textual.thumbs .textual {
-      padding-block-start: 7px;
   }
 
   .section--textual.thumbs .thumb__item_one {
