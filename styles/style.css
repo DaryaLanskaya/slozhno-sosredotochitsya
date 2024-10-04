@@ -173,7 +173,8 @@
 
 .border.border_reverse {
   position: absolute;
-  bottom: -19px;
+  /* bottom: -19px; */
+  bottom: -88px;
   left: 22px;
 }
 
@@ -204,7 +205,8 @@
 
 .section--textual .textual {
   display: flex;
-  padding-block-start: 129px;
+  /* padding-block-start: 129px; */
+  padding-block-start: 8rem;
   gap: var(--unit);
 }
 
