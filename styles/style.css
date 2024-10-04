@@ -481,6 +481,7 @@
 
   .section--textual.section--textual-column .textual__items {
       flex-wrap: wrap;
+      gap: 0;
   }
 
   .section--textual.section--textual-column .textual__item {
@@ -511,10 +512,6 @@
   .section--textual.section--textual-column .textual__title {
     flex: 0 0 32%;
     width: 32%;
-  }
-
-  .section--textual.section--textual-column .textual__items {
-    gap: 0;
   }
 
   .section--textual.thumbs .thumb__item_one {
