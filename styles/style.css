@@ -173,8 +173,8 @@
 
 .border.border_reverse {
   position: absolute;
-  /* bottom: -19px; */
-  bottom: -88px;
+  bottom: -19px;
+  /* bottom: -88px; */
   left: 22px;
 }
 
