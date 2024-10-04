@@ -101,7 +101,7 @@
 .border_diverse {
   display: flex;
   align-items: center;
-  margin-inline-end: 1px;
+  margin-inline-end: 3px;
   position: relative;
 }
 
@@ -204,7 +204,7 @@
 
 .section--textual .textual {
   display: flex;
-  padding-block-start: 5px;
+  padding-block-start: 34px;
   gap: var(--unit);
 }
 
@@ -362,7 +362,7 @@
 }
 
 .footer .footer__info {
-  margin-block-start: 17%;
+  margin-block-start: 17.5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,12 +375,13 @@
 
 .footer .border_diverse {
   justify-content: end;
-  top: -29px;
+  top: -22px;
+  right: 2px;
 }
 
 .footer .border.border_reverse {
-  bottom: -12.1rem;
-  left: 1px;
+  bottom: -12.2rem;
+  left: -1px;
   position: relative;
 }
 
