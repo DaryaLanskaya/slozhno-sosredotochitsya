@@ -32,6 +32,7 @@
       --color-second: #353430;
       --accent-color: #FFC2E6;
       --color-desk: #ff0070;
+      --unusual-color:rgba(50, 49, 45, 0.4);
       --shadow-info: 4px 4px 0 var(--color-desk);
       --shadow-info-second: 2px 1.5px 1px var(--color-primary);
       --color-secondary: var(--color-second);
