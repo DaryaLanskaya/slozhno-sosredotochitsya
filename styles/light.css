@@ -8,10 +8,7 @@
   --shadow-info-second: 2px 1.5px 1px var(--color-primary);
   --color-secondary: var(--color-second);
   --shadow-info-accent: 3px 2px 0 var(--color-desk);
-}
-
-.page.theme_light {
-  background-image: url('/images/cover-image-light.png');
+  --background: url('/images/cover-image-light.png');
 }
 
 .page.theme_light .section--textual p {
@@ -37,11 +34,8 @@
       --shadow-info-second: 2px 1.5px 1px var(--color-primary);
       --color-secondary: var(--color-second);
       --shadow-info-accent: 3px 2px 0 var(--color-desk);
-  }
-
-  .page {
-      background-image: url('/images/cover-image-light.png');
-  }
+      --background: url('/images/cover-image-light.png');
+    }
 
   .page .dot {
       display: none;
