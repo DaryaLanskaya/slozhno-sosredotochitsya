@@ -244,6 +244,7 @@
 
 .section__textual--thumbs .textual {
   padding-block-start: 33px;
+  flex-wrap: wrap;
 }
 
 .section__textual--list .textual {
@@ -265,10 +266,6 @@
 .section__textual--list .textual__item {
   flex: 0 0 32%;
   width: 32%;
-}
-
-.section__textual--thumbs .textual {
-  flex-wrap: wrap;
 }
 
 .section__textual--thumbs .textual__subtitle--special {
