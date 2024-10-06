@@ -1,19 +1,19 @@
 :root .theme_light {
   --color-primary: #FF8DCB;
-  --color-second: #353430;
+  --color-base: #353430;
   --accent-color: #FFC2E6;
   --color-desk: #ff0070;
   --unusual-color: rgba(50, 49, 45, 0.4);
   --shadow-info: 4px 4px 0 var(--color-desk);
   --shadow-text: 2px 1.5px 1px var(--color-primary);
-  --color-secondary: var(--color-second);
+  --color-definition: var(--color-base);
   --shadow-info-accent: 3px 2px 0 var(--color-desk);
   --background-color: var(--color-decor);
   --background-image: url('../images/cover-image-light.png');
 }
 
 .page.theme_light .section__textual p {
-  color: var(--color-second);
+  color: var(--color-base);
 }
 
 .page.theme_light .text_divers {
@@ -27,13 +27,13 @@
 @media (prefers-color-scheme: light) {
   :root {
       --color-primary: #FF8DCB;
-      --color-second: #353430;
+      --color-base: #353430;
       --accent-color: #FFC2E6;
       --color-desk: #ff0070;
       --unusual-color: rgba(50, 49, 45, 0.4);
       --shadow-info: 4px 4px 0 var(--color-desk);
       --shadow-text: 2px 1.5px 1px var(--color-primary);
-      --color-secondary: var(--color-second);
+      --color-definition: var(--color-base);
       --shadow-info-accent: 3px 2px 0 var(--color-desk);
       --background-color: var(--color-decor);
       --background-image: url('../images/cover-image-light.png');

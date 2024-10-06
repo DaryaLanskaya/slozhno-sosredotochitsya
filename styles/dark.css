@@ -1,16 +1,16 @@
 :root .theme_dark {
   --main-color: #000028;
   --color-primary: #FF0070;
-  --color-secondary: #f1b2ce;
-  --color-second: var(--color-primary);
+  --color-definition: #f1b2ce;
+  --color-base: var(--color-primary);
   --accent-color: #DB00FF;
   --unusual-color: rgba(255, 0, 112, 0.4);
   --shadow-info: 4px 4px 0 var(--color-primary);
-  --shadow-info-second: 2px 1.5px 1px var(--color-primary);
+  --shadow-info-text: 2px 1.5px 1px var(--color-primary);
   --shadow-info-accent: 3px 2px 0 var(--color-primary);
-  --font-size-baze: 18px;
+  --font-size-base: 18px;
   --font-size-accent: 157px;
-  --font-weight-baze: 400;
+  --font-weight-base: 400;
   --font-weight-bold: 700;
   --unit: 20px;
   --background-color: var(--main-color);
@@ -29,16 +29,16 @@
   :root {
       --main-color: #000028;
       --color-primary: #FF0070;
-      --color-secondary: #f1b2ce;
-      --color-second: var(--color-primary);
+      --color-definition: #f1b2ce;
+      --color-base: var(--color-primary);
       --accent-color: #DB00FF;
       --unusual-color: rgba(255, 0, 112, 0.4);
       --shadow-info: 4px 4px 0 var(--color-primary);
-      --shadow-info-second: 2px 1.5px 1px var(--color-primary);
+      --shadow-info-text: 2px 1.5px 1px var(--color-primary);
       --shadow-info-accent: 3px 2px 0 var(--color-primary);
-      --font-size-baze: 18px;
+      --font-size-base: 18px;
       --font-size-accent: 157px;
-      --font-weight-baze: 400;
+      --font-weight-base: 400;
       --font-weight-bold: 700;
       --unit: 20px;
       --background-color: var(--main-color);
