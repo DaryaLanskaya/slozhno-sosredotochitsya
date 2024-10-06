@@ -542,6 +542,7 @@
 
   .section__textual--thumbs {
       padding-block-end: 42px;
+      padding-block-start: 0;
   }
 
   .container {
@@ -602,10 +603,6 @@
   .section.section__textual--list {
       padding-block-start: 16px;
       padding-block-end: 40px;
-  }
-
-  .section__textual--thumbs {
-      padding-block-start: 0;
   }
 
   .section__textual.section__textual--thumbs .textual {
