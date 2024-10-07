@@ -223,12 +223,13 @@
   width: 100%;
 }
 
-.textual__subtitle.mt {
+.textual__subtitle.textual--indent {
   margin-block-start: var(--unit);
 }
 
-.textual--special.mb {
+.textual--special.textual--indent {
   margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 .section__textual p {
